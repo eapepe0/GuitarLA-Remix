@@ -21,7 +21,7 @@ export function meta() {
       title: "GuitarLA - Carrito de Compras",
     },
     {
-      descrition: "Compra y Venta de Guitarras e instrumentos musicales.",
+      description: "Compra y Venta de Guitarras e instrumentos musicales.",
     },
     {
       charset: "utf-8",

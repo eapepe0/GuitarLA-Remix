@@ -12,6 +12,23 @@ export function links(){ //* aca va la info en los tags <meta>
     ]
     )
  }
+ export function meta() {
+  //* aca va la info en los tags <meta>
+  return [
+    {
+      title: "GuitarLA - Tienda de Guitarras",
+    },
+    {
+      description: "GuitarLA - Nuestra coleccion de Guitarras",
+    },
+    {
+      charset: "utf-8",
+    },
+    {
+      viewport: "width=device-width, initial-scale=1.0",
+    },
+  ];
+}
 
 const Tienda = () => {
   return (<>

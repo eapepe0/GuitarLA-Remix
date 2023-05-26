@@ -11,6 +11,23 @@ import blogStyle from '../styles/blog.css'
      ]
      )
   }
+  export function meta() {
+    //* aca va la info en los tags <meta>
+    return [
+      {
+        title: "GuitarLA - Tienda de Guitarras",
+      },
+      {
+        description: "GuitarLA - Nuestra coleccion de Guitarras",
+      },
+      {
+        charset: "utf-8",
+      },
+      {
+        viewport: "width=device-width, initial-scale=1.0",
+      },
+    ];
+  }
 
 const Blog = () => {
 
