@@ -13,6 +13,7 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 
 import styles from "./styles/index.css";
+import normalize from './styles/normalize.css'
 
 //* aca guardamos la informacion que tenemos en el meta , que va inyectada dentro de <head></head>
 export const meta = () => [
@@ -35,20 +36,7 @@ export function links() {
   return [
     {
       rel: "stylesheet",
-      href: "https://necolas.github.io/normalize.css/8.0.1/normalize.css",
-    },
-    {
-      rel: "precconect",
-      href: "https://fonts.googleapis.com",
-    },
-    {
-      rel: "precconect",
-      href: "https://fonts.gstatic.com",
-      crossOrigin: "true",
-    },
-    {
-      rel: "stylesheet",
-      href: "https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap",
+      href: normalize,
     },
     {
       rel: "stylesheet",
