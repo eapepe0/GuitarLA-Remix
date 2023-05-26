@@ -8,28 +8,18 @@ import Header from './components/header'
 import styles from './styles/index.css'
 
 
-
-
-/* export function meta(){ //* aca guardamos la informacion que tenemos en el meta , que va inyectada dentro de <head></head>
-    return(
-    [ 
-        {
-            charset : 'utf-8'
-        },{
-            viewport : 'width=device-width, initial-scale=1.0'
-        },{
-            description : "Sitio de Compra de Guitarras e instrumentos"
-        },{
-            title : 'Guitar LA - Remix'
-        },
-        ]
-    )
-} */
-
-export const meta = () => ([{
-    charset: "utf-8",
-    title: "New Remix App",
-  }]);
+//* aca guardamos la informacion que tenemos en el meta , que va inyectada dentro de <head></head>
+export const meta = () => ([  
+    {
+    charset : 'utf-8'
+    },{
+    viewport : 'width=device-width, initial-scale=1.0'
+    },{
+    description : "Sitio de Compra de Guitarras e instrumentos"
+    },{
+    title : 'Guitar LA - Remix'
+    },
+]);
   
 
 export function links(){ //* aca guardamos hojas de estilos , depende tambien el orden que estan acomodadas en el array

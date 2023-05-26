@@ -1,53 +1,22 @@
-# Welcome to Remix!
 
-- [Remix Docs](https://remix.run/docs)
+# GuitarLA
 
-## Development
+Proyecto realizado en **React** , utilice **Remix Run** , **URL dinamicas**, **Meta** , **Link** , **<Outlet/>** , **loader** , **model** , **Routing dinamico** , **CatchBoundary** , **ErrorBoundary** , **fetch con Promesas** , **Nested Routes**, **Context API** , **useOutletContext**, **Armado de carrito** , **LocalStorage** en Remix Run , **Hydratation Error** , **<ClientOnly>** .
 
-From your terminal:
 
-```sh
-npm run dev
-```
+## Deploy
 
-This starts your app in development mode, rebuilding assets on file changes.
+[Link a la pagina](https://guitar-la-remix-puce.vercel.app/)
 
-## Deployment
 
-First, build your app for production:
+## Capturas
+![screen0](https://raw.githubusercontent.com/eapepe0/GuitarLA-Remix/main/screen0.jpg)
+![screen1](https://raw.githubusercontent.com/eapepe0/GuitarLA-Remix/main/screen1.jpg)
+![screen2](https://raw.githubusercontent.com/eapepe0/GuitarLA-Remix/main/screen2.jpg)
+![screen3](https://raw.githubusercontent.com/eapepe0/GuitarLA-Remix/main/screen3.jpg)
+![screen4](https://raw.githubusercontent.com/eapepe0/GuitarLA-Remix/main/screen4.jpg)
+![screen5](https://raw.githubusercontent.com/eapepe0/GuitarLA-Remix/main/screen5.jpg)
 
-```sh
-npm run build
-```
+## Performance
 
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+![performance](https://raw.githubusercontent.com/eapepe0/GuitarLA-Remix/main/performance.jpg)
